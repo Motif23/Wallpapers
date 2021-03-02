@@ -1,0 +1,7 @@
+#See "man feh" for bg-scaling options
+
+#Add custom wallpaper (Execute in terminal and update in /i3/config)
+feh --bg-scale /"dir"/"image_name" ()
+
+#Set random wallpaper (Add to /i3/config/)
+exec --no-startup-id feh --randomize --bg-scale /path/to/wallpapers/*
