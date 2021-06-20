@@ -1,3 +1,6 @@
+#List the amount of files in dir
+ls | wc -l
+
 #See "man feh" for bg-scaling options
 
 #Add custom wallpaper (Execute in terminal and update in /i3/config)
